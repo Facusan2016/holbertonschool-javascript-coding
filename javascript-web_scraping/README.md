@@ -1,0 +1,1 @@
+In this folder we're working with Javascript web scrapping.
