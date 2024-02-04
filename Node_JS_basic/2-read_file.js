@@ -11,7 +11,7 @@ function countStudents(path) {
 
     stdSplitData.forEach((e) => {
       const stdValue = e.split(',');
-      const stdKey = stdValue[stdValue.length - 1];
+      const stdKey = stdValue[stdValue.length];
 
       if (!Object.keys(fields).includes(stdKey)) {
         fields[stdKey] = [];
